@@ -13,6 +13,6 @@ public class SalesTax {
 
         double salesTax = purchaseAmount * taxRate / 100;
 
-        System.out.println("The sales tax will be: $" + (int)(salesTax * 100) / 100.0);
+        System.out.println("The sales tax will be: $" + (int)(salesTax * 100 + 0.5) / 100.0);
     }
 }
